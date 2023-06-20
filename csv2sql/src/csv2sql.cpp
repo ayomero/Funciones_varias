@@ -118,6 +118,7 @@ int main(int argc, char* argv[]){
 	string archivo;
 	int limite;
 	campos=0;
+	cout << "Hola al mundo." << endl;
 	if(argc>0){
 		SeparaPath(argv[1],directorio,archivo);
 		if(argc<5)
